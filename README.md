@@ -1,7 +1,5 @@
-# This repo contains the code and documentation for transforming the Samsung motion sensor data
-# into a tidy data set with the mean and standard deviation features (i.e. variables) row-wise.
-# It further creates a tidy summary data set of the means of these features by subject and activity.
-# and writes this summary data set to the working directory.
+## This repo contains the code and documentation for transforming the Samsung motion sensor data into a tidy data set with the mean and standard deviation features (i.e. variables) row-wise.
+## It further creates a tidy summary data set of the means of these features by subject and activity, and writes this summary data set to the working directory.
 
 ## Preparation
 
@@ -24,7 +22,7 @@
 
 ## Output
 * A dataframe “melt_data” which provides rows per variable per observation
-* An aggregate file “meandata.txt” of the means of each variable by activity by subject
+* An aggregate file “meandata.txt” of the means of each variable by activity by subject, written to the working directory
 
 ## Script outline
 1. Read the features file to get a list of features (i.e. variable column names).
