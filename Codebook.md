@@ -26,20 +26,24 @@ units/possible values:  see “Derivation of Variable Names” below for name pa
 description:  numeric measure of the variable for the observation		
 units/possible values:  normalized value of the variable on scale [-1,1] 
 							
-
 ## MEANDATA.TXT columns
 
-column_name	descrption				units/possible values
-==============	===============================		==================================
-activity_label	activity during observation	 	LAYING, SITTING, STANDING, WALKING,
-							WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+###activity_label	
+description:  activity during observation		
+units/possible values:	LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
-subject_id	ID of volunteer for observaton		integer 1 to 30
+###subject_id	
+description:  ID of volunteer for observaton		
+units/possible values:  integer 1 to 30
 
-variable_name	text of the variable measured		see “Derivation of Variable Names” below for name pattern
+###variable_name	
+description:  text of the variable measured		
+units/possible values:  see “Derivation of Variable Names” below for name pattern
 
-mean_value	numeric mean of the measure of the 	mean of normalized value of the variable on scale [-1,1] 
-		variable for the observation
+###mean_value		
+description:  mean of the numeric measure of the variable for the observation		
+units/possible values:  mean of normalized value of the variable on scale [-1,1] 
+
 
 
 
