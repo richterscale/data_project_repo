@@ -43,12 +43,15 @@ melt_data <- melt(selected_data,id=c("activity_label","subject_id"))
 melt_data$variable <- gsub("...","_",melt_data$variable,fixed = TRUE)
 melt_data$variable <- gsub("..","",melt_data$variable,fixed = TRUE)
 
-## Create a data frame of the means by activity by subject by variable
-mean_data <- aggregate(value ~ activity_label + subject_id + variable, data=melt_data, mean)
-
 ## Rename for good variable names
 library(dplyr)
-mean_data <- rename(mean_data,mean_value = value,variable_name = variable)
+melt_data <- rename(melt_data,variable_name = variable)
+
+## Create a data frame of the means by activity by subject by variable
+mean_data <- aggregate(value ~ activity_label + subject_id + variable_name, data=melt_data, mean)
+
+## Rename for good variable names
+mean_data <- rename(mean_data,mean_value = value)
 
 ## Sort the data for presentation
 mean_data <- arrange(mean_data,activity_label,subject_id,variable_name)

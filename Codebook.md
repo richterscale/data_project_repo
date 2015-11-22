@@ -18,7 +18,7 @@ units/possible values:	LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WA
 description:  ID of volunteer for observaton		
 units/possible values:  integer 1 to 30
 
-###variable	
+###variable_name	
 description:  text of the variable measured		
 units/possible values:  see “Derivation of Variable Names” below for name pattern
 
