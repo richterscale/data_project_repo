@@ -10,8 +10,6 @@ The raw data is transformed from having many columns representing the variables 
 
 ## MELTDATA columns
 
-column_name	descrption				units/possible values
-==============	===============================		==================================
 ###activity_label	
 description:  activity during observation
 units/possible values:	LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
