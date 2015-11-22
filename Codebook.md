@@ -11,7 +11,7 @@ The raw data is transformed from having many columns representing the variables 
 ## MELTDATA columns
 
 ###activity_label	
-description:  activity during observation
+description:  activity during observation		
 units/possible values:	LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
 ###subject_id	
@@ -23,7 +23,7 @@ description:  text of the variable measured
 units/possible values:  see “Derivation of Variable Names” below for name pattern
 
 ###value		
-description:  numeric measure of the variable for the observation
+description:  numeric measure of the variable for the observation		
 units/possible values:  normalized value of the variable on scale [-1,1] 
 							
 
