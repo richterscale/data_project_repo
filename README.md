@@ -24,7 +24,7 @@
 * A dataframe “melt_data” which provides rows per variable per observation
 * An aggregate file “meandata.txt” of the means of each variable by activity by subject, written to the working directory
 
-## Script outline
+## Script outline - these steps are executed by the script
 1. Read the features file to get a list of features (i.e. variable column names).
 2. Read the X test and train files using the features as column names.
 3. Read the test and train subject files to get a list of subjects for the observations.
