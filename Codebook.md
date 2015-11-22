@@ -12,15 +12,21 @@ The raw data is transformed from having many columns representing the variables 
 
 column_name	descrption				units/possible values
 ==============	===============================		==================================
-activity_label	activity during observation	 	LAYING, SITTING, STANDING, WALKING,
-							WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
+###activity_label	
+description:  activity during observation
+units/possible values:	LAYING, SITTING, STANDING, WALKING,WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 
-subject_id	ID of volunteer for observaton		integer 1 to 30
+###subject_id	
+description:  ID of volunteer for observaton		
+units/possible values:  integer 1 to 30
 
-variable	text of the variable measured		see “Derivation of Variable Names” below for name pattern
+###variable	
+description:  text of the variable measured		
+units/possible values:  see “Derivation of Variable Names” below for name pattern
 
-value		numeric measure of the variable		normalized value of the variable on scale [-1,1] 
-		for the observation
+###value		
+description:  numeric measure of the variable for the observation
+units/possible values:  normalized value of the variable on scale [-1,1] 
 							
 
 ## MEANDATA.TXT columns
